@@ -1,0 +1,40 @@
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px 0 30px;
+}
+
+.fb {
+    box-shadow: 1px 1px 10px #505751;
+    padding: 8px 40px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 4px;
+    margin: 5px 0px;
+}
+
+.button {
+    background-color: #a8ada9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    float: right;
+    padding: 5px;
+    font-size: 15px ;
+}
+
+.button:hover {
+    background-color: #4CAF50; 
+}
+
+
+

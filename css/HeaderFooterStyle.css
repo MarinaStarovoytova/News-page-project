@@ -1,0 +1,61 @@
+/*общий стиль для всех страниц (шапка и подвал)*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: linear-gradient(to bottom, #8f8f8e02, #f0eae2), url('https://images.unsplash.com/photo-1492666673288-3c4b4576ad9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80') bottom no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    color: rgba(8, 8, 8, 0.589);
+    font-size: 7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .text_h1  {
+    font-size: 45px;
+    color: rgba(8, 8, 8, 0.6);
+    position: absolute;
+    bottom: 25px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links >a {
+    color: cadetblue;
+    padding: 0px 25px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108, 117, 125);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a.top {
+    position: fixed; 
+    bottom: 0%;
+    right: 0%;
+    color: #6E7F8D;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 8px;
+    margin: 20px;
+    background: #E4EBF1;
+}

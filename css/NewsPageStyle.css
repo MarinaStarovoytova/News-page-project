@@ -1,0 +1,54 @@
+
+.news {
+    background-color: white;
+    padding: 30px 0 30px;
+}
+
+article {
+    width: 850px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a {
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+
+.article-meta {
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+article img:hover {
+    filter: opacity(70%);
+}
+
+article:nth-child(2n){ 
+    background-color: rgba(12, 12, 12, 0.1);
+}
+
+.new h2::after {
+    content: " New ";
+    color:red;
+    font-style: oblique;
+}
+
+

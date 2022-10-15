@@ -1,0 +1,26 @@
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.new_vakansii {
+    display: inline-flexbox;
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 0px 0px 3px 2px silver;
+    font-size: 18px;
+}
+
+
+.new_vakansii:hover {
+    box-shadow: 0px 0px 3px 2px ;
+}
+
+
+div p {
+    color: rgb(33, 37, 41);
+}
+
+
+
